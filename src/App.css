@@ -10,23 +10,7 @@
   "n c c";
   grid-template-rows: 100px 1fr;
   grid-template-columns: 2fr 10fr;
-}
-
-.header{
-  height: 100px;
-  grid-area: h;
-  background-color: rgb(63, 150, 63);
-  padding: 0 0 0 20px;
-}
-
-.header img{
-  width: 100px;
-  height: 100px;
-}
-
-.navbar{
-  grid-area: n;
-  background-color: rgb(53, 184, 140);
+  height: 100vh; 
 }
 
 .content{
@@ -34,3 +18,7 @@
   background-color: whitesmoke;
 }
 
+h4{
+  margin: 0;
+  padding: 0;
+}
